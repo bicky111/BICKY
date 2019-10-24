@@ -1,0 +1,36 @@
+void setup() {
+  size(1920, 1080);
+ 
+}
+
+
+  
+
+
+void draw() {
+   background(255);
+if (keyPressed) {
+ if (key == 'b' || key == 'B') {
+     fill(134,9,255);
+   }
+  if (key == 'M' || key == 'm') {
+     fill(255,118,255);} 
+   if (key == 'n' || key == 'N') {
+     fill(0,255,255);} 
+   if (key == 'V' || key == 'v') {
+     fill(130,118,255);} 
+   if (key == 'c' || key == 'C') {
+     fill(202,255,142);} 
+   
+   
+ } 
+ 
+ else {
+   fill(0);
+  }
+  rect(500, 400, 200, 200);
+  
+  
+}
+
+
